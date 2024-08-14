@@ -7,7 +7,7 @@ return(
     <div  className={passedValues.theme +"header"} id="searchresult" >
         <div id="octocatdiv" >
             <div id="catdiv" >
-<img id="catimg" src="public/assets/Bitmap.png"></img>
+<img id="catimg" src="/assets/Bitmap.png"></img>
 </div>
 <div id="octocatinformation">
     <div id="joineddiv">
@@ -36,11 +36,11 @@ return(
 <div id="lastdiv">
 <div className="footerdiv">
     <div className="minidiv">
-    <img src="public/assets/Shape.png"></img>
+    <img src="/assets/Shape.png"></img>
     <label className="k">San Francisco</label>
     </div>
     <div className="minidiv">
-    <img src="public/assets/002-url.svg"></img>
+    <img src="/assets/002-url.svg"></img>
     <label className="k">https://github.blog</label>
     </div>
 </div>
@@ -48,11 +48,11 @@ return(
 
 <div className="footerdiv">
     <div className="minidiv">
-<img src="public/assets/004-twitter.svg"></img>
+<img src="/assets/004-twitter.svg"></img>
 <label className="k">Not Available</label>
 </div>
 <div className="minidiv">
-    <img src="public/assets/Shape (1).png"></img>
+    <img src="/assets/Shape (1).png"></img>
     <label className="k">@github</label>
     </div>
 </div>
