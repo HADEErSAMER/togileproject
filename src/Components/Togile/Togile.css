@@ -1,0 +1,50 @@
+
+
+
+
+#togllediv{
+  height: 38px;
+  width: 100%;
+  display: flex;
+  background-color: #F6F8FF;
+  justify-content: center;
+  align-items: center;
+  gap: 410px;
+}
+#togllediv.darkheader{
+  background-color: #222731;
+}
+#devfinder{
+  font-size: 26px;
+  color: #222731;
+  font-weight: bold;
+}
+#devfinder.darkheader{
+  color:white;
+  background-color: #222731;
+}
+#btndark{
+  font-size: 13px;
+  letter-spacing: 5px;
+  color: #222731;
+  font-weight: bold;
+  border: none;
+  background-color:#F6F8FF;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#btndark.darkheader{
+  background-color: #222731;
+  color: #F6F8FF;
+}
+#darkimg{
+  color: #222731;
+}
+
+@media only screen and (max-width: 600px){
+  #togllediv{
+    gap: 50px;
+  }
+}
