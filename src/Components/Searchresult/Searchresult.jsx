@@ -12,14 +12,14 @@ return(
 </div>
 <div id="octocatinformation">
     <div id="joineddiv">
-<label  id="octocatlabel"  className={passedValues.theme +"header"} >h</label>
+<label  id="octocatlabel"  className={passedValues.theme +"header"} >{props.login}</label>
 <label id="joind" className={passedValues.theme +"header"}  >Joined 25 Jan 2011</label>
 </div>
 <label id="blueoctocat">@octocat</label>
 <p id="p" className={passedValues.theme +"header"} >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
 <div id="middlediv" className={passedValues.theme +"header"}>
 <div id="followersdiv">
-    <label className="reposlabel">Repos</label>
+    <label  className="reposlabel">Repos</label>
     <label className="reposlabel">Followers</label>
     <label className="reposlabel">Following</label>
 

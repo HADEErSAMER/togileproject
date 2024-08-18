@@ -6,13 +6,13 @@
   height: 38px;
   width: 100%;
   display: flex;
-  background-color: #F6F8FF;
+  background-color: white;
   justify-content: center;
   align-items: center;
   gap: 410px;
 }
 #togllediv.darkheader{
-  background-color: #222731;
+  background-color:  #141D2F;
 }
 #devfinder{
   font-size: 26px;
@@ -21,7 +21,7 @@
 }
 #devfinder.darkheader{
   color:white;
-  background-color: #222731;
+  background-color: #141D2F;
 }
 #btndark{
   font-size: 13px;
@@ -29,14 +29,14 @@
   color: #222731;
   font-weight: bold;
   border: none;
-  background-color:#F6F8FF;
+  background-color:white;
   display: flex;
   gap: 10px;
   justify-content: center;
   align-items: center;
 }
 #btndark.darkheader{
-  background-color: #222731;
+  background-color: #141D2F;
   color: #F6F8FF;
 }
 #darkimg{

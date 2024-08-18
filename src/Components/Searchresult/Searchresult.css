@@ -98,6 +98,7 @@ background-color: #1E2A47;
 #middlediv.darkheader{
     background-color: #141D2F;
 }
+
 #numberdiv{
     width: 80%;
     display: flex;
@@ -112,6 +113,7 @@ background-color: #1E2A47;
     justify-content: center;
     align-items: center; 
 }
+
 .reposlabel{
     color: #4B6A9B;
     font-size: 13px;
@@ -192,8 +194,8 @@ background-color: #1E2A47;
     }
     #p{
         position: relative;
-        right: 70px;
-        width: 270px;
+        right: 90px;
+        width: 250px;
         height: 75px;
     }
     #middlediv{
