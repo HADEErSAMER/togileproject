@@ -1,8 +1,9 @@
 import "./Searchresult.css"
 import { ThemeContext } from "../../App"
 import { useContext } from "react"
-function Searchresult(){
+function Searchresult(props){
     const passedValues=useContext(ThemeContext)
+    
 return(
     <div  className={passedValues.theme +"header"} id="searchresult" >
         <div id="octocatdiv" >
@@ -11,7 +12,7 @@ return(
 </div>
 <div id="octocatinformation">
     <div id="joineddiv">
-<label id="octocatlabel"  className={passedValues.theme +"header"} >The Octocat</label>
+<label  id="octocatlabel"  className={passedValues.theme +"header"} >h</label>
 <label id="joind" className={passedValues.theme +"header"}  >Joined 25 Jan 2011</label>
 </div>
 <label id="blueoctocat">@octocat</label>

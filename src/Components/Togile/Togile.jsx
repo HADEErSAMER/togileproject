@@ -8,11 +8,11 @@ function Togile(){
     function onHandleChange(event){
 let newvalue
 
-if (event.target.checked== false){
-    newvalue="light"
+if (event.target.value== "light"){
+    newvalue="dark"
     
 } else{
-    newvalue="dark"
+    newvalue="light"
     
 }
 theme.settheme(newvalue)
@@ -21,7 +21,7 @@ theme.settheme(newvalue)
 return(
     <div id="togllediv" className={passedValues.theme +"header"}>
 <label id="devfinder" className={passedValues.theme +"header"}>devfinder</label>
-<button id="btndark" className={passedValues.theme +"header"} onClick={onHandleChange }   >DARK 
+<button value={theme.theme} id="btndark" className={passedValues.theme +"header"} onClick={onHandleChange }   >{theme.theme} 
     <img id="darkimg" src="/assets/moon.svg"></img>
 </button>
     </div>

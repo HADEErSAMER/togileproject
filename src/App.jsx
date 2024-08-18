@@ -12,13 +12,16 @@ function App() {
   const[theme,settheme]=useState("light")
   const passedValues=useContext(ThemeContext)
     return (
-    <div id='main'  >
+   
+    
     <ThemeContext.Provider value={{theme,settheme}}>
+       <div id='main' className={theme+"header"}>
     <Togile></Togile>
     <Search></Search>
     <Searchresult></Searchresult>
-    </ThemeContext.Provider>  
     </div>
+    </ThemeContext.Provider>  
+    
   )
 }
 
